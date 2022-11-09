@@ -105,7 +105,6 @@ const markNotDone = async(req, res) => {
         if (findMark.markDone == false) {
             let markNDone = await todoModel.findById({_id:findMark._id});
             res.status(200).send({status: true, message: "Mark is not done", data:markNDone})
-         //return res.status(400).send(findWork.workDone)
         }else{
             return res.status(200).send( {message:"Mark is Already Done"})
         }

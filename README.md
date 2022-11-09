@@ -10,7 +10,7 @@
   3) MongoDB
 
 - Packages Used 
-  1) abc
+  1) Jest --> used for the API's Testing
 
 - Database Collections
   1) Directory Colletion _ [reference to todo]
